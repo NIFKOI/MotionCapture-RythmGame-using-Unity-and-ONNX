@@ -6,7 +6,7 @@ https://github.com/digital-standard/ThreeDPoseUnityBarracuda
 <h3> 원리 </h3>
 ONNX를 이용한 모션 캡쳐를 통해 동영상에서 좌표값을 받아 한 캐릭터에 대입하고, 카메라의 영상을 통해 사용자의 캐릭터가 움직인다. <br>
 그 후, 사용자의 캐릭터와 동영상의 움직임에 따른 캐릭터의 좌표값의 차이를 이용해 점수를 판정한다. <br>
-
+<br>
 따라서 ONNX를 2개 사용하므로 GPU를 GTX 1060 이상을 권장합니다. <br>
 ONNX 파일은 Tensorflow를 사용하여 제작되었으며 표준 라이브러리를 사용합니다. <br>
 
